@@ -14,7 +14,7 @@ Abaixo esta exexmplo de flow do Node-red:
 
 Para utilizar Node-red, utilize a engrenagem, canto superior direito da página, como mostrado abaixo:
 
-![Config](https://github.com/sergiogama/Ultimate-ChatBot/blob/master/Screen%20Shot%202018-04-25%20at%2016.50.50.png)
+![Config](https://github.com/sergiogama/Ultimate-ChatBot/blob/master/Bot_Config.png)
 
 OU
 
