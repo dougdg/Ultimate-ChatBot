@@ -10,7 +10,7 @@ Abaixo esta exexmplo de flow do Node-red:
 
 [{"id":"f00c4075.ce4e4","type":"http in","z":"8ac0be49.7b6a3","name":"","url":"/api/conversation","method":"post","upload":false,"swaggerDoc":"","x":116,"y":71,"wires":[["d5767344.1b9f8"]]},{"id":"3636b79a.cd5878","type":"http response","z":"8ac0be49.7b6a3","name":"","statusCode":"","headers":{},"x":665.2801513671875,"y":70.77455139160156,"wires":[]},{"id":"ce77e800.614a48","type":"watson-conversation-v1","z":"8ac0be49.7b6a3","name":"","workspaceid":"1ce9bef8-2d1e-4209-94ca-54d55e6330b0","multiuser":false,"context":true,"empty-payload":false,"default-endpoint":true,"service-endpoint":"https://gateway.watsonplatform.net/conversation/api","timeout":"","optout-learning":false,"x":509.5,"y":71,"wires":[["3636b79a.cd5878"]]},{"id":"d5767344.1b9f8","type":"change","z":"8ac0be49.7b6a3","name":"","rules":[{"t":"set","p":"payload","pt":"msg","to":"payload.params.input.text","tot":"msg"}],"action":"","property":"","from":"","to":"","reg":false,"x":324.5,"y":71,"wires":[["ce77e800.614a48"]]}]
 
-https://github.com/sergiogama/Ultimate-ChatBot/blob/master/Screen%20Shot%202018-04-25%20at%2016.50.50.png
+(https://github.com/sergiogama/Ultimate-ChatBot/blob/master/Screen%20Shot%202018-04-25%20at%2016.50.50.png)
 
 OU
 
